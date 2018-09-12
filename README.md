@@ -32,7 +32,7 @@ const html = `<div>
     </table>
 </div>
 </div>`
-import parse from 'mini-html-parser';
+import parse from 'mini-html-parser2';
 
 Page({
   data: {
