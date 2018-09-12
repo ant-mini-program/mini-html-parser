@@ -1,0 +1,33 @@
+{
+  "name": "mini-rich-text",
+  "version": "0.1.0",
+  "description": "小程序富文本",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ant-mini-program/mini-rich-text.git"
+  },
+  "files": [
+    "lib",
+    "es"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rc-tools run compile",
+    "pub": "git push origin && npm run build && npm publish"
+  },
+  "keywords": [
+    "rich-text",
+    "mini-program",
+    "html-parser"
+  ],
+  "author": "issac.lj@alibaba-inc.com",
+  "devDependencies": {
+    "rc-tools": "^8.1.5"
+  },
+  "dependencies": {
+    "domhandler": "^2.4.2",
+    "htmlparser2": "^3.9.2"
+  }
+}
