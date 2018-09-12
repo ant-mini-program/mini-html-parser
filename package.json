@@ -1,10 +1,10 @@
 {
-  "name": "mini-rich-text",
+  "name": "mini-html-parser",
   "version": "0.1.0",
   "description": "小程序富文本",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ant-mini-program/mini-rich-text.git"
+    "url": "git@github.com:ant-mini-program/mini-html-parser.git"
   },
   "files": [
     "lib",
