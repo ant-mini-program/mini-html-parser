@@ -3,7 +3,7 @@
 ## 安装
 
 ```
-$ npm install mini-html-parser --save
+$ npm install mini-html-parser2 --save
 ```
 
 ## 使用
