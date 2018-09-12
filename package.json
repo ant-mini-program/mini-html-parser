@@ -13,7 +13,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "rc-tools run compile",
     "pub": "git push origin && npm run build && npm publish"
   },
@@ -24,6 +24,7 @@
   ],
   "author": "issac.lj@alibaba-inc.com",
   "devDependencies": {
+    "jest": "^23.6.0",
     "rc-tools": "^8.1.5"
   },
   "dependencies": {
