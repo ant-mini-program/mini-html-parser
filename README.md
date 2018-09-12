@@ -35,11 +35,17 @@ const html = `<div>
 import parse from 'mini-html-parser';
 
 Page({
-  data: {},
+  data: {
+    nodes: [],
+  },
   onLoad() {
-    this.setData({
-      nodes: parse(html),
-    });
+    parse(html, (err, nodes) => {
+      if (!err) {
+        this.setData({
+          nodes,
+        });
+      }
+    })
   },
 })
 ```
