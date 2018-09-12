@@ -54,3 +54,10 @@ Page({
 <!-- page.axml -->
 <rich-text nodes="{{nodes}}" />
 ```
+
+## 运行测试
+
+```
+$ npm run build
+$ npm test
+```
