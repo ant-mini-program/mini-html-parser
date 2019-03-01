@@ -1,5 +1,5 @@
 import Handler from 'domhandler';
-import { Parser } from 'htmlparser2';
+import Parser from './Parser';
 
 function transformNode(node) {
   if (['tag', 'text'].indexOf(node.type) === -1) {
