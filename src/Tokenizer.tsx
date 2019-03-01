@@ -967,4 +967,4 @@ Tokenizer.prototype._emitPartial = function(value) {
     }
 };
 
-export default Tokenizer;
+module.exports = Tokenizer;
