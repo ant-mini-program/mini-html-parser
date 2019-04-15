@@ -1,5 +1,5 @@
 var decodeCodePoint = require("entities/lib/decode_codepoint.js");
-var entityMap = require("entities/maps/entities.json");
+var entityMap = {};
 var legacyMap = require("entities/maps/legacy.json");
 var xmlMap = require("entities/maps/xml.json");
 
