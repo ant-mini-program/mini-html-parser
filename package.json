@@ -7,11 +7,9 @@
     "url": "git@github.com:ant-mini-program/mini-html-parser.git"
   },
   "files": [
-    "lib",
-    "es"
+    "lib"
   ],
   "main": "lib/index.js",
-  "module": "es/index.js",
   "scripts": {
     "test": "jest",
     "build": "rc-tools run compile",
