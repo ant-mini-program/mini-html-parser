@@ -36,7 +36,7 @@ export default function parse(html, done) {
     }
   }, {});
 
-  const parser = new Parser(handler, { xmlMode: true });
+  const parser = new Parser(handler, { xmlMode: false });
 
   parser.write(html);
   parser.done();
