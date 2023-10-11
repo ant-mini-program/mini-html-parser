@@ -1,5 +1,7 @@
 # mini-html-parser2
 
+> 支付宝小程序基础库在 2.8.5 及之后版本已在 <rich-text nodes={{}}> 组件中内置 HTML 解析能力
+
 ## 安装
 
 ```
