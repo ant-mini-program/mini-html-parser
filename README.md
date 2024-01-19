@@ -10,6 +10,8 @@ $ npm install mini-html-parser2 --save
 
 ## 使用
 
+> 使用时请注意传入的 HTML 代码不包含**注释代码**。 
+
 ```js
 // page.js
 const html = `<div>
